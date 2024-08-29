@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" class="projects-mobile-bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bulma CSS Framework -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <!-- AOS CSS for animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS JS for animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Siluni Alahakoon</title>
+
+    <style>
+      /* Custom styles for project cards */
+    </style>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <section class="navigation">
+      <nav class="navbar is-transparent is-fixed-top pt-4">
+        <div class="navbar-brand">
+          <a
+            role="button"
+            class="navbar-burger"
+            data-target="navMenu"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-end">
+            <div class="navbar-item navbar-hover">
+              <a class="navbar-item mr-6 pt-1" href="./index.html"> Home </a>
+              <a class="navbar-item mr-6 pt-1" href="./education.html">
+                Education
+              </a>
+              <a class="navbar-item mr-6 pt-1 navbar-active" href="#">
+                Projects
+              </a>
+              <a class="navbar-item mr-6 pt-1" href="./certifications.html">
+                Certifications
+              </a>
+              <a class="navbar-item mr-6 pt-1" href="./contact.html">
+                Contact me
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <div data-aos="fade-right" data-aos-duration="1000">
+      <div class="title is-3 has-text-black is-hidden-tablet mt-4 ml-4">
+        Projects
+      </div>
+      <div class="title is-1 has-text-black is-hidden-mobile mt-6 ml-6 mb-4">
+        Projects
+      </div>
+    </div>
+
+    <div class="project-container">
+      <!-- Project 1 -->
+      <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+        <div class="project-title">
+          <img
+            src="./images/fixfastbuddy.png"
+            alt="FixFast Buddy Logo"
+            class="project-logo"
+          />
+          <h3 class="title is-5">
+            FixFast Buddy - Vehicle Breakdown Assistance System
+          </h3>
+        </div>
+        <div class="project-header">
+          <p class="subtitle is-6 has-text-weight-semibold mb-0">Second Year Group Project</p>
+          <p class="project-date">May 2023 – May 2024</p>
+        </div>   
+             <p class="project-description">
+          FixFast Buddy is a comprehensive breakdown assistance system designed to provide rapid and reliable help for vehicles experiencing issues on the road. Our system addresses the critical need for timely assistance, aiming to significantly reduce vehicle downtime and enhance driver safety.
+        <br><br>
+        Key features include real-time tracking of service providers, an intuitive user interface for quick requests, and an efficient dispatch system that routes assistance requests to the nearest provider. The integration of Google Maps API enhances the user experience by offering precise location tracking and updates.
+        </p>
+        <br>
+        <div class="tags">
+          <span class="tag is-info">HTML/CSS</span>
+          <span class="tag is-info">PHP</span>
+          <span class="tag is-info">Kotlin</span>
+          <span class="tag is-info">XML</span>
+          <span class="tag is-info">MySQL</span>
+          <span class="tag is-info">Google Maps API</span>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div
+        class="project-card"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+      >
+        <div class="project-title">
+          <img
+            src="./images/dehati.png"
+            alt="Dehati Logo"
+            class="project-logo"
+          />
+          <h3 class="title is-5">
+            Dehati - Decentralized Communication Android Application
+          </h3>
+        </div>
+        
+        <p class="subtitle is-6 has-text-weight-semibold"></p>
+        <div class="project-header">
+          <p class="subtitle is-6 has-text-weight-semibold mb-0">Third Year Group Project</p>
+          <p class="project-date">May 2024 – Ongoing</p>
+        </div>
+        <div class="project-header">
+          <p class="subtitle is-7 mt-1">NBQSA 2024 Finalist - Tertiary Student Projects (Technology)</p>
+        </div>
+        <p class="project-description">
+          Dehati is an innovative Android application designed to facilitate secure, decentralized peer-to-peer messaging within local networks. By leveraging TCP/IP socket programming, Dehati allows users connected to the same Wi-Fi network to exchange messages directly, without the need for a central server or internet connection.
+        <br><br>
+        The application is built with a focus on privacy and efficiency, ensuring that communication remains secure and free from external interference. Key features include seamless local message exchange, a user-friendly interface for easy navigation, and a robust ping functionality that allows users to check the connectivity status between devices.
+      </p>
+        <br>
+        <div class="tags">
+          <span class="tag is-info">Kotlin</span>
+          <span class="tag is-info">Flutter</span>
+          <span class="tag is-info">Jetpack Compose</span>
+          <span class="tag is-info">TCP/IP Socket Programming</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
